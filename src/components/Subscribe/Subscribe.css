@@ -1,0 +1,98 @@
+.Subscribe{
+    display: block;
+    padding: 6em 0;
+    margin-top: 0px !important;
+    background-color: #215ee2;
+}
+
+.SubscribeContent{
+    width: 1140px;
+    max-width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media all and (min-width:1200px){
+    .SubscribeRow{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+
+@media all and (min-width: 576px){
+    .SubscribeRow{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+
+.SubscribeRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SubscribeAlign{
+    text-align: center !important;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.SubscribeContainer{
+    overflow: hidden;
+    display: inline-block;
+    text-align: center !important;
+}
+
+.SubscribeText{
+    margin-bottom: 3em;
+    overflow: hidden;
+}
+
+.SubscribeText h3,
+.SubscribeText p{
+    color: #fff;
+}
+
+.SubscribeText h3{
+    letter-spacing: 6px;
+    margin-bottom: 0.6em;
+    text-transform: uppercase;
+}
+
+.SubscribeInput{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.SubscribeControl{
+    position: relative;
+    z-index: 2;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+    padding: .5rem .75rem;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.15);
+}
+
+.SubscribeBtn{
+    color: #fff;
+    background-color: #272727;
+    border-color: #272727;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.25;
+    text-align: center;
+    white-space: no-wrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+}

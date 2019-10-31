@@ -1,0 +1,24 @@
+.NavigationItems {
+    margin: 0 auto 0 auto;
+    text-align: left;
+    width: 100%;
+    display: table;
+    padding: 0px;
+}
+
+.NavigationItemsMenu{
+    font-size: 14px;
+    padding: 0 0 0 0;
+    margin: 0px auto;
+    width: 90%;
+    float: left;
+    height: 60px;
+}
+
+.NavigationItems > li{
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+}

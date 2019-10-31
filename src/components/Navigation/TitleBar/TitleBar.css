@@ -1,0 +1,65 @@
+.TitleBar{
+    height: 39px;
+    width: 100%;
+    background-color: #1c4eba;
+    display: block;
+    padding: 0 0px;
+    margin: 0px auto;
+    min-width: 320px;
+}
+
+.TitleBarHeadwrp{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.TitleBarHeaderTopLeft{
+    float: right;
+}
+
+.TitleBarAddress{
+    padding: 10px 0px 0px 0px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.TitleBarAddress span{
+    margin-right: 9px;
+    color: #fff;
+}
+
+.TitleBarAddress a{
+    color: #fff;
+    margin-right: 9px;
+}
+
+.TitleBarAddress i {
+    margin-right: 6px;
+    margin-left: 6px;
+    color: #fff;
+}
+
+.TitleBarHeaderTopRight{
+    float: left;
+    text-align: left;
+}
+
+.TitleBarHeaderTopRight a{
+    line-height: 39px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 12px;
+    display: inline-block;
+    float: left;
+}
+
+.TitleBarHeaderTopRight a:hover{
+    background-color: #fff;
+    color: #3b5998;
+    transition: all 0.1s ease-in-out;
+}
+
+.mobiletext02{
+    display: none;
+}

@@ -1,0 +1,35 @@
+.Cart{
+    float: right;
+    clear: right;
+}
+
+li.Cart a{
+    padding: 0 27px 0 22px;
+    text-align: center;
+    border-left: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    display: block;
+    color: #fff;
+    line-height: 58px;
+    text-decoration: none;
+    position: relative;
+}
+
+li.Cart em.CartRoundpoint{
+    position: absolute;
+    top: 14px;
+    left: 46%;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 100%;
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    line-height: 16px !important;
+    color: #215ee2;
+    font-weight: bold;
+    box-shadow: 0 0 0 1px #d4d4d5 !important;
+}

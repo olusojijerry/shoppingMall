@@ -1,0 +1,19 @@
+.Toolbar{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    background-color: #215ee2;
+    box-shadow: 0 0 4px rgba(0,0,0,0.16);
+}
+
+.ToolbarMain{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+}
+
+.left{
+    display: block;
+    float: right;
+}

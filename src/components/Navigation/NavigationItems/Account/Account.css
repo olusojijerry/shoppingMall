@@ -1,0 +1,22 @@
+.Account{
+    float: right;
+}
+
+.Account>a{
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    display: block;
+    color: #fff;
+    padding: 0 26px 0 22px;
+    line-height: 58px;
+    text-decoration: none;
+    position: relative;
+}
+
+.Account>a i{
+    display: inline-block;
+    font-size: 16px;
+    line-height: inherit;
+    margin-right: 11px;
+    color: #fff;
+}

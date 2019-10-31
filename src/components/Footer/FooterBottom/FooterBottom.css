@@ -1,0 +1,22 @@
+.FooterBottom {
+    background-color: #333333;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    color: #868686;
+    font-size: 12px;
+}
+
+.FooterBottom>p>a{
+    color: #ddd;
+}
+
+.FooterBottom>p>a:hover{
+    color: #215ee2;
+}

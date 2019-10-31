@@ -1,0 +1,13 @@
+.Logo {
+    background-color: #215ee2;
+    padding: 14px 0 0 0;
+    width: 10%;
+    float: left;
+    margin: 0;
+}
+
+.Logo a{
+    display: block;
+    float: left;
+    padding: 0 0 0 0;
+}
